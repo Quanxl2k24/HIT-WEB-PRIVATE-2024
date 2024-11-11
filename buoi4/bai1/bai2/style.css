@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+:root {
+    --mau_xanh: #8EA5B2;
+    --mau_money: #71AE88;
+}
+
+.background {
+    background-color: #FFFDE7;
+    padding-top: 30px;
+}
+
+#box {
+    width: 50%;
+    background-color: white;
+    margin: 0px auto;
+    border-radius: 15px;
+    padding: 15px 15px;
+}
+
+.money {
+    color: #71AE88;
+}
+
+#img_header img {
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#sanpham_lienquan img {
+    width: 50px;
+    height: 50px;
+}
+
+#tieu_de h2 {
+    color: var(--mau_xanh);
+    margin: 10px 0px;
+}
+
+#tieu_de p {
+    margin: 5px 0px;
+}
+#tieu_de{
+    margin:0px 20px ;
+}
+#logo_star {
+    margin: 5px 0px;
+    margin:0px 30px ;
+}
+
+.bgc_the {
+    background-color: rgb(217, 241, 248);
+    border-radius: 20px;
+    padding: 5px;
+    width: auto;
+    
+}
+
+.bgc_the_2 {
+    background-color: rgb(217, 241, 248);
+    border-radius: 20px;
+    padding: 5px;
+    width: auto;
+}
+
+#danhgia {
+    margin: 10px 0px;
+    margin:0px 30px ;
+}
+
+#themvaogiohang {
+    border-radius: 5px;
+    height: 36px;
+    background-color: rgb(169, 111, 5);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin:0px 30px ;
+    margin-bottom: 10px;
+}
+
+#content_1 h3 {
+    margin-bottom: 10px;
+}
+
+#content_1{
+    margin:0px 20px ;
+}
+#content_1 ul {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#content_2_boxung table {
+    margin: 10px 0px;
+}
+
+#content_2_boxung{
+    margin:0px 20px ;
+}
+
+#content_3_noibat h3 {
+    color: var(--mau_xanh);
+    margin-bottom: 10px;
+}
+
+#content_3_noibat p {
+    color: rgb(111, 111, 111);
+
+}
+
+#content_3_noibat {
+    margin-bottom: 10px;
+    margin:0px 20px ;
+}
+
+#content_4_hdsd h3 {
+    color: #10ae4c;
+    margin-bottom: 10px;
+}
+
+#content_4_hdsd p {
+    color: var(--mau_xanh);
+}
+#content_4_hdsd{
+    margin:10px 20px 0px 20px ;
+}
+
+#content_5_tinhnang h3 {
+    margin: 10px 0px;
+}
+
+#content_5_tinhnang p {
+    color: #10ae4c;
+}
+
+#content_5_tinhnang {
+    margin-bottom: 10px;
+    margin:0px 20px ;
+}
+
+#chiase .facebook_button button {
+    background-color: #0866FF;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 10px;
+    width: 100px;
+    margin: 0px 5px 0px 0px;
+    border: none;
+    margin:0px 20px ;
+}
+
+#chiase .x_button button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 10px;
+    width: 100px;
+    border: none;
+}
+
+#chiase .instagram_button button {
+    background-color: #B83B80;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 10px;
+    width: 100px;
+    margin: 0px 5px;
+    border: none;
+}
+
+#danhgia_end input {
+    width: 80%;
+    height: 120px;
+    margin: 10px 0px;
+    margin:0px 20px ;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#danhgia_end button {
+    color: white;
+    background-color: #3597E2;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 10px;
+    width: 100px;
+    border: none;
+    margin:0px 20px ;
+}
+
+#sanpham_lienquan {
+    margin: 0px auto;
+    width: 50%;
+    padding: 15px 15px;
+}
+
