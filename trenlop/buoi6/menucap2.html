@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu cap 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul{
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+        }
+        ul li{
+            padding: 30px 100px;
+            border: 1px solid black;
+            margin: 0px 10px;
+            border-radius: 10px;
+        }
+        .menu li:hover{
+            background-color: green;
+            color: white;
+            border-radius: 10px;
+            transition: all 1s;
+        }
+        .main_menu{
+            position: relative;
+            
+        }
+        .sub_menu{
+            position: absolute;
+            display: block;
+            top: 100%;
+            left: 0;
+            display: none;
+        }
+
+.main_menu:hover .sub_menu{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul class="menu">
+            <li class=" main_menu">
+                item1
+                <ul class="sub_menu">
+                    <li>con</li>
+                    <li>con</li>
+                    <li>con</li>
+                </ul>
+            </li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+    </div>
+</body>
+</html>

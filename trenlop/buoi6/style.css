@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+@keyframes moveRight {
+    from {
+      transform: translateX(0); /* Bắt đầu tại vị trí gốc */
+    }
+    to {
+      transform: translateX(200px); /* Di chuyển sang phải 200px */
+    }
+  }
+.box{
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    transition: all 0.3 ease-in-out;
+    /* animation-name: moveRight;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+}
+.box:hover{
+    width: 100%;
+    background-color: beige;
+    transition: all 1s;
+   
+}
+/* .box2{
+    width: 100px;
+    height: 150px;
+    background-color: green;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+} */

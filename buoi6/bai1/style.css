@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mauxanh:#F67504;
+    --font_size: 16px;
+}
+#page{
+    padding: 20px 50px;
+    font-family: Poppins;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo{
+    font-size: 20px;
+    color: #051441;
+    
+}
+
+#menu_center a button{
+    background-color: white;
+    border: none;
+    margin: 0px 25px;
+    font-size: var(--font_size);
+    color: #635F85;   
+}
+#menu_center a button:hover{
+    color: var(--mauxanh);
+    text-decoration: underline;
+}
+
+.button_none button{
+    width: 127px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: var(--font_size);
+    color: var(--mauxanh);
+    background-color: white;
+    border: 2px solid gainsboro;
+}
+.item_2 button{
+    padding: 19px 0px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 25px 20px -17px;
+}
+.button_color button{
+    width: 127px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: var(--font_size);
+    background: linear-gradient(to right,var(--mauxanh),#f4a91e);
+    color: white;
+}
+#triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid var(--mauxanh);
+	border-bottom: 5px solid transparent;
+    margin: 0px auto;
+    
+}
+
+.button_watch button{
+    border: none;
+    background-color: white;
+    font-size: var(--font_size);
+}
+#content{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+}
+#text_content{
+    width: 496px;
+}
+
+#text_content_p1{
+    color: var(--mauxanh);
+    margin-bottom:20px;
+}
+
+#text_content h1{
+    color: #051441;
+}
+#text_content_p2{
+    color: #5D677E;
+    margin: 20px 0px;
+}
+
+/* box */
+
+
+#full{
+    position: relative;
+    width: 500px;
+    height: 515px;
+}
+#box{
+    width: 500px;
+    height: 410px;
+    background: linear-gradient(to right,#4991E5,#724AE5);
+    position: absolute;
+    bottom: 0;
+    border-radius: 20px;
+    transform: rotateX(10deg) rotateY(10deg) rotateZ(10deg);
+}
+
+#person{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+#vitri_1{
+    position: absolute;
+    left: -150px;
+    top: 160px;
+}
+#vitri_2{
+    position: absolute;
+    right: -150px;
+    top: 80px;
+}
+
+#icon_1{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+}
+#icon_2{
+    position: absolute;
+    left: 70%;
+    top: 45%;
+}
+
+#card_1{
+    position: absolute;
+    left: -25%;
+    bottom: -12%;
+}
+#card_2{
+    position: absolute;
+    left: 15%;
+    bottom: -17%;
+}
+
+
