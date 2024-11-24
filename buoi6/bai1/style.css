@@ -8,7 +8,7 @@
     --font_size: 16px;
 }
 #page{
-    padding: 20px 50px;
+    padding: 20px 100px;
     font-family: Poppins;
 }
 header{
@@ -95,6 +95,7 @@ header{
 
 #text_content h1{
     color: #051441;
+    font-size: 46px;
 }
 #text_content_p2{
     color: #5D677E;
@@ -157,4 +158,27 @@ header{
     bottom: -17%;
 }
 
+#page_2{
+    margin-top:70px ;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+}
+
+#text_content_page2{
+    width: 500px;
+}
+#text_content_p1_2{
+    color: var(--mauxanh);
+    margin-bottom: 20px;
+}
+#text_content_page2 h1{
+    color: #051441;
+    font-size: 46px;
+}
+#text_content_p1_3{
+    color: #79899D;
+    margin: 20px 0px;
+}
 
