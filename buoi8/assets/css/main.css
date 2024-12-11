@@ -1,0 +1,379 @@
+@import 'variables.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--text-font);
+}
+
+/* header */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0px;
+}
+
+header {
+    height: 650px;
+    background-image: linear-gradient(to right,
+            #fff 0%,
+            #fff 60%,
+            var(--color-secondary) 60%,
+            var(--color-secondary) 100%);
+    padding: 0px 172px;
+    position: relative;
+}
+
+nav .logo-wrap {
+    width: 80px;
+    height: 80px;
+}
+
+nav .logo-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* navigation */
+ul {
+    display: flex;
+    list-style: none;
+    gap: 64px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+ul a:hover {
+    color: var(--color-secondary);
+}
+
+/* search */
+
+.search-wrap {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    border: none;
+    height: 40px;
+    align-items: center;
+    padding: 8px;
+    border-radius: 20px;
+    gap: 8px;
+    background-color: white;
+}
+
+.search .icon-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    border: none;
+}
+
+.search input:focus {
+    outline: none;
+    border: none;
+}
+
+header .content {
+    width: 500px;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-top: 96px;
+}
+
+header .content .title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+header .content .title span {
+    color: var(--color-secondary);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--text-color);
+    color: white;
+    width: max-content;
+    padding: 8px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+/* coffee image */
+
+.coffee {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 20%;
+    left: 48%;
+}
+
+.coffee img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.coffee-item {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.categories {
+    display: flex;
+    background-color: #F6EBDA;
+    gap: 90px;
+    padding: 32px 156px;
+    width: max-content;
+    border-radius: 48px;
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    text-align: center;
+}
+
+.categories .cate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.categories .cate-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.categories .cate-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* page-2 */
+
+.page_2 {
+    margin-top: 164px;
+}
+
+.title-page h2 {
+    padding: 0px 172px;
+    font-size: 32px;
+    margin-bottom: 52px
+}
+
+.title-page span {
+    text-decoration: underline;
+    text-decoration-color: var(--color-secondary);
+}
+
+.box-page_2 {
+    display: flex;
+    padding: 0px 172px;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 52px;
+}
+
+.box-item-page2 {
+    width: 464px;
+    background-color: var(--color-primary);
+    border-radius: 16px;
+    padding: 14px 14px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box-item-page2 h3 {
+    margin: 10px 0px;
+}
+
+.box-item-page2 p {
+    margin-bottom: 10px;
+}
+
+.box-item-page2 img {
+    width: 100%;
+}
+
+.price-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-order button {
+    background-color: var(--color-tartiary);
+    border: none;
+    padding: 10px 14px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.box-item-page2:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.line-page2 {
+    display: flex;
+    padding: 26px 172px;
+    gap: 32px;
+    align-items: center;
+    background-color: #F6EBDA;
+    margin-bottom: 50px;
+}
+
+.line-page2 h2 {
+    font-size: 30px;
+}
+
+/* page_3 */
+
+.page_3 .box-page_3 {
+    display: grid;
+    grid-template-columns: repeat(4, 10fr);
+    /* grid-template-rows: repeat(2,0px); */
+    gap: 20px;
+    padding: 0px 172px;
+}
+
+.page_3 .box-page_3 .item-box-page3 {
+    width: 260px;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.line-page3 {
+    display: flex;
+    align-items: center;
+    padding: 26px 172px;
+    background-color: #F6EBDA;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.line-page3 .text-line {
+    width: 590px;
+}
+
+.page_3 .box-page_3 .item-box-page3 img {
+    width: 100%;
+}
+
+.line-page3 .img-line {
+    background-color: white;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+.line-page3 .img-line img {
+    width: 500px;
+}
+.line-page3 .text-line p {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.line-page3 .text-line h2{
+    margin-bottom: 16px;
+}
+.line-page3 .text-line h3{
+    margin-bottom: 16px;
+}
+
+.line-page3 .text-line button{
+    background-color: black;
+    border: none;
+    padding: 10px 14px;
+    color: var(--color-secondary);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* end */
+
+.hang-1{
+    padding: 0px 172px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.hang-1 .hang-1-left{
+    display: flex;
+    align-items: center;
+}
+.hang-1 .hang-1-left img{
+    width: 80px;
+}
+
+.hang-1 .logo-item-right{
+
+}
+
+.hang-2{
+    display: flex;
+    padding: 0px 230px;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.hang-2 p{
+    margin: 14px 0px;
+    font-weight: 600;
+    color: rgb(112, 110, 110)
+}
+
+.hang-2 .right p{
+    color: var(--text-color);
+    font-size: 20px;
+}
+.hang-2 .right input{
+    height: 50px;
+    border: none;
+    background-color: #F6EADA;
+    padding: 0px 10px;
+}
+.hang-2 .right input:focus{
+    border: none;
+    outline: none;
+}
+
+.hang-2 .right button{
+    height: 50px;
+    border: none;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 0px 2px;
+    margin-left: -5px;
+}
