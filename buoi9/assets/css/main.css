@@ -1,0 +1,196 @@
+@import 'variable.css';
+@import 'responsive.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+header {
+    position: relative;
+    height: 90vh;
+    margin-bottom: 50px;
+}
+
+header .anhnen img {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    object-fit: cover;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 36px;
+}
+
+.menu .main-menu {
+    display: flex;
+    gap: 100px;
+}
+
+.menu .main-menu li {
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}
+
+.cha {
+    position: relative;
+
+}
+
+.con {
+    position: absolute;
+    background-color: #FFFFFFB2;
+    border-radius: 20px;
+    width: max-content;
+    padding: 10px;
+    display: none;
+    text-align: end;
+}
+
+.cha:hover ul {
+    display: block;
+}
+
+.con li:hover {
+    color: #F06C25;
+    text-decoration: underline;
+    text-decoration-color: #F06C25;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    width: 50vw;
+}
+
+.content h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.title-page {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 50px 0px;
+    text-shadow: 2px 2px 4px #b6b4b4;
+}
+
+.page_2 {
+    padding: 0px 180px;
+}
+
+.item-page2 img {
+    width: 200px;
+}
+
+.item-page2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    width: 532px;
+}
+
+.item-page2 div img {
+    width: 100px;
+}
+
+.item-page2 div h2 {
+    margin-bottom: 12px;
+}
+
+.item-page2 div h2 span {
+    color: #F06C25;
+}
+
+.item-page2_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-page2_1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+/* page3 */
+.page3 {
+    padding: 0px 180px;
+}
+
+.box-page3 {
+    position: relative;
+}
+
+.box-page3 img {
+    width: 100%;
+    height: 90%;
+}
+
+.title-img {
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px;
+    top: 0;
+}
+
+.content-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    margin-bottom: 20px;
+}
+
+/* page4 */
+.content-page4 {
+    width: 269px;
+}
+
+.content-page4 item-page4 img {
+    width: 100%;
+}
+
+.content-page4 p {
+    text-align: center;
+    margin-top: 28px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.container-page4 {
+    display: grid;
+    grid-template-columns: repeat(2, 32vw);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    justify-items: center;
+}
+
+.line-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 48px;
+    border-top: 1px solid black;
+    margin-top: 80px;
+}

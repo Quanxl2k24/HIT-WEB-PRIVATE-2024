@@ -1,0 +1,6 @@
+@import 'font.css';
+@import 'responsive.css';
+
+:root{
+    --text-font: "Be Vietnam Pro", sans-serif  ;
+}
