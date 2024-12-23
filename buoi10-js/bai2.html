@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai_2</title>
+</head>
+<body>
+    <script>
+        let month = prompt("Nhập tháng của bạn: ");
+        month = month.toLowerCase();
+        let tmp = month.charAt(0).toUpperCase() + month.slice(1);
+        if (month == "february") console.log(`${tmp} has 28 days.`);
+        if(month == "april" || month == "june" || month == "september" || month == "November"){
+            console.log(`${tmp} has 30 days.`);
+        }else{
+            console.log(`${tmp} has 31 days.`);
+        }
+    </script>
+</body>
+</html>

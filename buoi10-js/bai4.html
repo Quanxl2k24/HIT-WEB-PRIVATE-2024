@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai_4</title>
+</head>
+<body>
+    <script>
+        let arr;
+        arr = prompt("Nhap day so: ");
+        let n = arr.length;
+        let arr_tmp = arr.split(",").map(Number);
+        let tmp_max = arr_tmp[0];
+        let tmp_min = arr_tmp[0];
+        let tmp_chan = 0;
+        console.log(arr);
+        console.log(arr_tmp);
+        for(let i  = 0; i < n; ++i){
+            if (tmp_max < arr_tmp[i]){
+                tmp_max = arr_tmp[i];
+            }
+            if(tmp_min > arr_tmp[i]){
+                tmp_min = arr_tmp[i];
+            }
+            if(arr_tmp[i] % 2==0){
+                tmp_chan++;
+            }
+        }
+        console.log(`Số lớn nhất: ${tmp_max}`);
+        console.log(`Số nhỏ nhất: ${tmp_min}`);
+        console.log(`Số chẵn: ${tmp_chan}`);
+    </script>
+</body>
+</html>
